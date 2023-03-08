@@ -31,6 +31,9 @@
     "autoload": {
         "psr-0": {
             "Infusionsoft": ["src", "tests"]
+        },
+        "psr-4": {
+            "Infusionsoft\\": ["src/", "tests/"]
         }
     },
     "extra": {
