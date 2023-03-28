@@ -982,7 +982,7 @@ abstract class RestModel implements ArrayAccess, JsonSerializable
      *
      * @return bool
      */
-    public function offsetExists($offset)
+    public function offsetExists(mixed $offset)
     {
         return isset($this->$offset);
     }
